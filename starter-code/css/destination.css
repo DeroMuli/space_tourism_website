@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 20vh 80vh;
+    overflow: hidden;
+}
+
+.top_container{
+    grid-column: 1 / 3;
+}
+
+.image_section{
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 100%;
+}
+
+.image_section p{
+    color: #FFFFFF;
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.7px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 160px;
+}
+
+.image_section p span{
+    font-family: "Barlow Condensed";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 4.7px;
+    text-align: left;
+    opacity: 25%;
+    margin-right: 20px;
+}
+
+.image_section img{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.info_section{
+    grid-template-rows: 20% 50% 30%;
+    grid-template-columns: 100%;
+    position: absolute;
+    right: 163px;
+    bottom: 110px;
+    width: 450px;
+    height: 480px;
+}
+
+.btn_group{
+    display: block;
+}
+
+.btn_group button {
+    float: left;
+    margin-right: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    font-family: "Barlow Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-align: left;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.btn_group button:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.52);
+}
+
+.btn_active {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+
+.info_section h1 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 115px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.info_section p {
+    color: #FFFFFF;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 100px;
+}
+
+.label {
+    color: #D0D6F9;
+    font-size: 14px;
+    font-family: "Barlow Condensed";
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.values {
+    color: #FFF;
+    font-size: 28px;
+    font-family: Bellefair;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
